@@ -1,3 +1,8 @@
+#ifndef MAIN_H
+#define MAIN_H
+
+#include <stdio.h>
+
 int _isupper(int c);
 int _isdigit(int c);
 void print_triangle(int size);
@@ -8,3 +13,6 @@ void more_numbers(void);
 void print_most_numbers(void);
 void print_numbers(void);
 void print_number(int n);
+
+
+#endif /* MAIN_H */
