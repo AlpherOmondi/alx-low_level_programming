@@ -1,13 +1,21 @@
+
 #include "main.h"
+
 /**
- * _puts - updates the value it points to to 98
- * @str: character value.
+ * _puts - prints string
+ * @str: string
+ * Return: void
  */
+
 void _puts(char *str)
 {
-int i;
+	int i = 0;
 
-for (i = 0; str[i] != 0; i++)
-_putchar(str[i]);
-_putchar('\n');
+	while (str[i] != '\0')
+	{
+		_putchar(str[i]);
+		i++;
+	}
+
+	_putchar('\n');
 }
