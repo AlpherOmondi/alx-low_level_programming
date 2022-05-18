@@ -12,6 +12,7 @@ if (d)
 {
 free(d->name);
 free(d->owner);
+free(d->age);
 free(d);
 }
 }
